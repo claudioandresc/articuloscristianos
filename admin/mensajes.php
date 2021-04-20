@@ -19,14 +19,14 @@ $mail = new PHPMailer(true); // the true param means it will throw exceptions on
 $mail->IsSMTP(); // telling the class to use SMTP
 //$mail->Timeout    = 30;   // time in sec. default value is 10
 /*
-  $mail->Host       = "mail.articuloscristianos.com"; // SMTP server  -- mail.articuloscristianos.com   OR   localhost   OR   mail.interlink.net.ve --
+  $mail->Host       = "mail.domain.com"; // SMTP server  -- mail.articuloscristianos.com   OR   localhost   OR   mail.interlink.net.ve --
   $mail->SMTPDebug  = 0;                     // enables SMTP debug information (for testing)
   $mail->SMTPAuth   = true;                  // enable SMTP authentication
   $mail->SMTPSecure = "ssl";                 // sets the prefix to the servier
   $mail->Host       = "smtp.gmail.com";      // sets GMAIL as the SMTP server
   $mail->Port       = 465;                   // set the SMTP port for the GMAIL server
-  $mail->Username   = "articuloscristianos@gmail.com";  // GMAIL username
-  $mail->Password   = "j3susf1sh";            // GMAIL password
+  $mail->Username   = "email@gmail.com";  // GMAIL username
+  $mail->Password   = "";            // GMAIL password
 */  
   //$mail->AddReplyTo("articuloscristianos@gmail.com", "Articulos Cristianos");  // 
   $mail->AddAddress("novedades@articuloscristianos.com", "Articulos Cristianos");
@@ -174,7 +174,7 @@ while($datos=mysql_fetch_array($buscar)){?><?=$datos['email']?>,<? } ?></textare
           <td align="center" class="txt-white-bold-2" style="text-transform:uppercase;border-bottom:solid 1px #4E4011;border-top:solid 1px #4E4011">Mensajes Enviados</td>
         </tr>
         <tr>
-          <td height="50" align="center" class="links-catalogo">&#8212;- <span style="color:#DDDDDD">N° de Mensajes:</span> <strong><? echo cuantos_items('mensajes'); ?></strong> -&#8212;</td>
+          <td height="50" align="center" class="links-catalogo">&#8212;- <span style="color:#DDDDDD">NÂ° de Mensajes:</span> <strong><? echo cuantos_items('mensajes'); ?></strong> -&#8212;</td>
         </tr>
 		<? $buscar=mysql_query("SELECT * FROM mensajes ORDER BY fecha ASC");
 		   while($datos=mysql_fetch_array($buscar)){?>
