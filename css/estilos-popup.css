@@ -1,0 +1,33 @@
+form {margin:0px; padding:0px;}
+body { 
+	margin:0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#dcb82c;
+}
+.fields-txt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #4C3E11;
+	width: 220px;
+	border: 1px solid #FFE99A;
+	color: #FFFFFF;
+}
+.but-form {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #9d7b01;
+	border: 1px solid #FFE99A;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	cursor:pointer;
+}
+.txt-color {
+	color:#fff;
+}
+.txt-error-msg {
+	color: #fff;
+	font-size:10px;
+}

@@ -1,0 +1,40 @@
+.titles-admin {
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	padding: 2px;
+	width: 520px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #FFEA96;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.txt-fields-admin {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #342B0A;
+	width: 250px;
+	border: 1px solid #F8E27F;
+}
+.txt-fields2-admin {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #342B0A;
+	width: 90px;
+	border: 1px solid #F8E27F;
+}
+.but-admin {
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #342B0A;
+	background-color: #DBB52E;
+	border: 1px solid #80691B;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 70px;
+	text-align: center;
+}
